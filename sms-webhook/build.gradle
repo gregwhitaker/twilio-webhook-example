@@ -1,0 +1,13 @@
+plugins {
+    id 'io.ratpack.ratpack-java' version '1.5.0'
+}
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile ratpack.dependency('guice')
+
+    runtime 'org.slf4j:slf4j-simple:1.7.22'
+}
+
+mainClassName = 'twilio.webhook.service.Main'
