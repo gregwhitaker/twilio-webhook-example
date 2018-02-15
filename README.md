@@ -25,6 +25,8 @@ Follow the steps below to run the example:
 2. Configure the `When a message comes in` webhook destination in your Twilio console under the `Messaging` settings for your Twilio phone number in the following format:
 
         http://{ngrok url}/webhook
+        
+    ![ngrok](images/twilio_console.png)
          
 3. Start the `sms-webhook` service using the following Gradle command:
 
