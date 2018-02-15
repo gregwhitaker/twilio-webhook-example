@@ -42,7 +42,7 @@ Follow the steps below to run the example:
 
 6. Reply with a number 1 through 10 to the SMS message.
 
-7. The webhook service will now be called by Twilio to record your response.
+7. The webhook service will now be called by Twilio to record your response. You will receive an SMS back letting you know that your rating has been recorded.
 
 8. Run the following command to verify that your rating was recorded:
 
