@@ -25,12 +25,13 @@ public class WebhookEndpoint implements Handler {
 
                         ratingService.addRating(form.get("From"), rating)
                                 .then(() -> {
-                                    ctx.getResponse().send();
+                                    ctx.getResponse().contentType("application/xml");
+                                    ctx.render("<Response><Message>Thanks for the feedback!</Message></Response>");
                                 });
                     } catch (NumberFormatException e) {
                         LOG.error("Error parsing rating from user '{}'", form.get("From"));
-                        ctx.getResponse().send();
-                    }
+                        ctx.getResponse().contentType("application/xml");
+                        ctx.render("<Response><Message>Thanks for the feedback!</Message></Response>");                    }
                 });
     }
 }

@@ -19,6 +19,8 @@ Follow the steps below to run the example:
 1. Start ngrok proxy using the following command:
 
         $ ./ngrok http 5050
+        
+    ![ngrok](images/ngrok.png)
     
 2. Configure the `When a message comes in` webhook destination in your Twilio console under the `Messaging` settings for your Twilio phone number in the following format:
 
