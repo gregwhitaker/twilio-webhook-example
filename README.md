@@ -1,5 +1,5 @@
 # twilio-webhook-example
-[![Build Status](https://travis-ci.org/gregwhitaker/twilio-webhook-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/twilio-webhook-example)
+![Build](https://github.com/gregwhitaker/twilio-webhook-example/workflows/Build/badge.svg)
 
 An example of sending SMS messages via [Twilio](https://www.twilio.com) and capturing recipient responses via webhook.
 
